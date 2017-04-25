@@ -55,10 +55,7 @@ body {
   position: absolute;
   z-index: -1;
 }
-p .comillas{
-  font-size: 90px !important;
-}
-/*************************************/
+
 #nav-toggle {   
   position: fixed;
   top: 10px;
@@ -198,9 +195,9 @@ div#content {
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: #fcfeff;
   border-radius: 0;
   font-family: 'Poiret One', cursive;
@@ -275,7 +272,7 @@ text-align: center;
 .typewriter h1 {
   overflow: hidden;
   /*justify-content: center;*/
-  border-right: .15em solid #f7b617;
+  border-right: .15em solid black;
   font-size: 45px;
   white-space: nowrap;
   margin: auto;
@@ -293,6 +290,31 @@ text-align: center;
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #f7b617; }
+  50% { border-color: #9E4E65; }
+}
+/********/
+.logo{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div>h1{
+  display: inline-block;
 }
 
+.cuerpo > p  {
+  color: #9E4E65;
+  text-align: justify;
+}
+.Mensaje{
+  position: relative;
+}
+.frase{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}

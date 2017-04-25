@@ -311,10 +311,16 @@ div>h1{
 }
 .Mensaje{
   position: relative;
+  height: 200px;
+  width: 100%;
 }
 .frase{
-  position: absolute;
-  height: 200px;
-  width: 200px;
+  position: relative;
+  height: 300px;
+  width: 300px;
   display: inline-block;
+}
+.negro{
+  height: 500px;
+  background-color: black;
 }

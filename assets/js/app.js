@@ -15,12 +15,12 @@ function incLoader() {
       loader.style.color = colorFijo;
       loader.style.fontSize = "250px";
       loader.innerHTML = t+ '%' ; 
-      if(t==100) {
+      if(t==10) {
         clearInterval(x);
         loading.style.display = 'none';
         body.style.display = 'block';
       };
-    },100);
+    },10);
 }
 
 
@@ -48,9 +48,15 @@ function color(){
 document.querySelector( "#nav-toggle" )
   .addEventListener( "click", function(e) {
     this.classList.toggle( "active" );
-    // e.target.parentNode.parentNode.parentNode.childNodes[3].style.width="80%";
-    // e.target.parentNode.parentNode.parentNode.childNodes[3].style.height="100%";
-    // e.target.parentNode.parentNode.parentNode.childNodes[3].style.zIndex="0";
-    // e.target.parentNode.parentNode.parentNode.childNodes[3].style.position="fixed";
   });
 
+// Evento OncLick
+var mostrar=document.getElementsByTagName("li");
+console.log(mostrar);
+
+for (var i=0;i<mostrar.length;i++){
+  if (this.getAttribute=="icon-papelines"){
+
+  }
+
+}

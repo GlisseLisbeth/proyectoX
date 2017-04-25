@@ -174,6 +174,7 @@ li.sep {
   background-color:black;
   padding-left: 20px;
 }
+
 .red:hover {
  color: #8E8DAF;
 
@@ -258,3 +259,40 @@ body.menu-active div#content {
 }
 body.menu-active div#content .menu #nav-toggle { 
   left: 294px; }
+
+/*  ***********************************/
+
+div .cuerpo{
+position: relative;
+margin: 30px;
+padding: 30px;
+justify-content: center;
+text-align: center;
+}
+
+/*typewriter effect*/
+
+.typewriter h1 {
+  overflow: hidden;
+  /*justify-content: center;*/
+  border-right: .15em solid #f7b617;
+  font-size: 45px;
+  white-space: nowrap;
+  margin: auto;
+  width: 100%;
+  letter-spacing: .12em;
+  animation:
+  typing 3.5s steps(40, end)infinite alternate,
+  blink-caret .75s step-end infinite alternate;
+}
+
+/*Animacion del demonio*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f7b617; }
+}
+

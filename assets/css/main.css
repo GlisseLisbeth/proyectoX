@@ -1,16 +1,16 @@
 @import url('http://fonts.googleapis.com/css?family=Dosis:200,400,500,600');
 
 body {
-  background: #f0f0f0;
-  font-family: "Dosis";
+  background: black;
   height: 600px;
+  font-family: 'Poiret One', cursive;
 }
 
 #loading{
   display: block;
 }
 
-#content{
+#body{
   display: none;
 }
 
@@ -55,6 +55,10 @@ body {
   position: absolute;
   z-index: -1;
 }
+p .comillas{
+  font-size: 90px !important;
+}
+/*************************************/
 #nav-toggle {   
   position: fixed;
   top: 10px;
@@ -162,12 +166,13 @@ li.sep {
 
 .redes{
   height: 20px;
+  background-color: black;
 }
 .redes >li{
   display: inline-block;
   text-align: center;
-  left: 20px;
-  background-color:#0f0f0f;
+  background-color:black;
+  padding-left: 20px;
 }
 .red:hover {
  color: #8E8DAF;
@@ -175,11 +180,13 @@ li.sep {
 }
 
 body.menu-active nav#slide-menu {
-   left: 0px; }
+   left: 0px; 
+   background-color: black;
+}
 body.menu-active nav#slide-menu ul {
    left: 0px;
-   padding-left: 0px;s
-   opacity: 1; }
+   padding-left: 0px;
+}
 
 /*
   Content

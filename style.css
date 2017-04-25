@@ -45,6 +45,7 @@
 }
 .icon-soccer-court2:before {
   content: "\e908";
+  color: #C5A4E1;
 }
 .icon-soccer-ball:before {
   content: "\e909";
@@ -120,6 +121,7 @@
 }
 .icon-sunrise2:before {
   content: "\e910";
+  color: #FCE59B;
 }
 .icon-weather:before {
   content: "\e911";
@@ -138,6 +140,7 @@
 }
 .icon-paint-format:before {
   content: "\e914";
+  color: #F9AAAA;
 }
 .icon-play:before {
   content: "\e052";
@@ -147,6 +150,7 @@
 }
 .icon-pagelines:before {
   content: "\f18c";
+  color: #657D44;
 }
 .icon-paper-plane-o:before {
   content: "\f1d9";

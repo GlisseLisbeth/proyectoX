@@ -1,5 +1,4 @@
 var loader = document.getElementsByClassName('loader')[0];
-var letter = document.getElementsByClassName('letter')[0]
 var loading = document.getElementById('loading');
 var body = document.getElementById('body');
 var logo = document.getElementById('logo');
@@ -18,20 +17,20 @@ function incLoader() {
       loader.style.color = colorFijo;
       loader.style.fontSize = "250px";
       loader.innerHTML = t+ '%' ;
-      if(t==10) {
+      if(t==100) {
         clearInterval(x);
         loading.style.display = 'none';
-        body.style.display = 'block';
+        logo.style.display = 'block';
       };
     },10);
 }
 
 function displayBody(){
-  var t = 0;
-  var x = setInterval( function() {
-    t++;
-    if(t==100) {
-      clearInterval(x);
+  var t1 = 0;
+  var x1 = setInterval( function() {
+    t1++;
+    if(t1==100) {
+      clearInterval(x1);
       logo.style.display = 'none';
       body.style.display = 'block';
     };

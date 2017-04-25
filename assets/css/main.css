@@ -13,6 +13,9 @@ body {
 #body{
   display: none;
 }
+#logo{
+  display: none;
+}
 
 .loader {
   position: absolute;
@@ -65,7 +68,7 @@ body {
 }
 
 #nav-toggle {
-  cursor: pointer; 
+  cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {

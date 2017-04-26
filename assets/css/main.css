@@ -13,6 +13,9 @@ body {
 #body{
   display: none;
 }
+#logo{
+  display: none;
+}
 
 .loader {
   position: absolute;
@@ -34,7 +37,7 @@ body {
   animation: rotateLoaderSlowInner 10s cubic-bezier(0.77, 0, 0.175, 1) 1;
 }
 
-.letter {
+.letter-loader {
   position: relative;
   top: 350px;
   left: 30px;
@@ -56,7 +59,7 @@ body {
   z-index: -1;
 }
 
-#nav-toggle {   
+#nav-toggle {
   position: fixed;
   top: 10px;
   left: 10px;
@@ -64,9 +67,9 @@ body {
   height: 36px;
 }
 
-#nav-toggle { 
-  cursor: pointer; 
-  padding: 10px 35px 16px 0px; 
+#nav-toggle {
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
 }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
@@ -79,7 +82,7 @@ body {
   content: '';
 }
 #nav-toggle span:before {
-  top: -10px; 
+  top: -10px;
 }
 #nav-toggle span:after {
   bottom: -10px;
@@ -136,10 +139,10 @@ li {
   padding: 0px 0;
   cursor: pointer;
   list-style: none;
-  
+
 }
 
-li:hover { 
+li:hover {
   background-color: #EAF2F6;
   color: black !important;
   padding: 10px;
@@ -155,10 +158,10 @@ a{
   color: white;
   font-weight: 800px;
 }
-li.sep { 
-  margin-top: 7px; 
-  padding-top: 14px; 
-  border-top: 1px solid lighten(#556270, 10%); 
+li.sep {
+  margin-top: 7px;
+  padding-top: 14px;
+  border-top: 1px solid lighten(#556270, 10%);
 }
 
 .redes{
@@ -178,7 +181,7 @@ li.sep {
 }
 
 body.menu-active nav#slide-menu {
-   left: 0px; 
+   left: 0px;
    background-color: black;
 }
 body.menu-active nav#slide-menu ul {
@@ -230,7 +233,7 @@ div.menu{
   -webkit-transition: all 300ms;
   transition: all 300ms;
 }
-div.menu:before { 
+div.menu:before {
   display: inline-block;
   width: 36px;
   height: 36px;
@@ -242,19 +245,19 @@ div.menu:before {
   line-height: 36px;
 }
 
-div.menu:hover { 
-  background: #E7E3D2; 
+div.menu:hover {
+  background: #E7E3D2;
   z-index:100;
 }
-div.menu-:before { 
-  color: #fcfeff; 
-} 
+div.menu-:before {
+  color: #fcfeff;
+}
 
 body.menu-active div#content {
-  left: 284px; 
-  border-radius: 7px 0 0 7px; 
+  left: 284px;
+  border-radius: 7px 0 0 7px;
 }
-body.menu-active div#content .menu #nav-toggle { 
+body.menu-active div#content .menu #nav-toggle {
   left: 294px; }
 
 /*  ***********************************/
@@ -311,10 +314,274 @@ div>h1{
 }
 .Mensaje{
   position: relative;
+  height: 200px;
+  width: 100%;
 }
 .frase{
-  position: absolute;
-  height: 200px;
-  width: 200px;
+  position: relative;
+  height: 300px;
+  width: 300px;
   display: inline-block;
+}
+.negro{
+  height: 500px;
+  background-color: black;
+}
+
+
+/*style letter Desarrollo Sostenible*/
+path{
+  fill: none;
+  stroke: #2a3745;
+  stroke-width: 28;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.stroke-a {
+  stroke-dasharray: 600;
+  animation: write1 3s 1 ease-out;
+}
+.stroke-b {
+  stroke-dasharray: 1100;
+  animation: write2 3s 1 ease-out;
+}
+.stroke-c {
+  stroke-dasharray: 600;
+  animation: write3 3s 1 ease-out;
+}
+.stroke-d {
+  stroke-dasharray: 600;
+  animation: write4 3s 1 ease-out;
+}
+.stroke-e {
+  stroke-dasharray: 600;
+  animation: write5 3s 1 ease-out;
+}
+.stroke-f {
+  stroke-dasharray: 600;
+  animation: write6 3s 1 ease-out;
+}
+.stroke-g {
+  stroke-dasharray: 600;
+  animation: write7 3s 1 ease-out;
+}
+.stroke-h {
+  stroke-dasharray: 600;
+  animation: write8 3s 1 ease-out;
+}
+.stroke-i {
+  stroke-dasharray: 600;
+  animation: write9 3s 1 ease-out;
+}
+.stroke-j {
+  stroke-dasharray: 900;
+  animation: write10 3s 1 ease-out;
+}
+.stroke-k {
+  stroke-dasharray: 600;
+  animation: write11 3s 1 ease-out;
+}
+.stroke-l {
+  stroke-dasharray: 600;
+  animation: write12 3s 1 ease-out;
+}
+.stroke-m {
+  stroke-dasharray: 600;
+  animation: write13 3s 1 ease-out;
+}
+.stroke-n {
+  stroke-dasharray: 600;
+  animation: write14 3s 1 ease-out;
+}
+.stroke-o {
+  stroke-dasharray: 700;
+  animation: write15 3s 1 ease-out;
+}
+.stroke-p-1 {
+  stroke-dasharray: 600;
+  animation: write16 3s 1 ease-out;
+}
+.stroke-p-2 {
+  stroke-dasharray: 600;
+  animation: write17 3s 1 ease-out;
+}
+.stroke-q {
+  stroke-dasharray: 700;
+  animation: write18 3s 1 ease-out;
+}
+.stroke-r {
+  stroke-dasharray: 600;
+  animation: write19 3s 1 ease-out;
+}
+.stroke-s {
+  stroke-dasharray: 600;
+  animation: write20 3s 1 ease-out;
+}
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 600;
+    }
+    5% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write2 {
+    0%, 5% {
+        stroke-dashoffset: 1100;
+    }
+    10% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write3 {
+    0%, 10% {
+        stroke-dashoffset: 600;
+    }
+    15% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write4 {
+    0%, 15% {
+        stroke-dashoffset: 600;
+    }
+    20% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write5 {
+    0%, 20% {
+        stroke-dashoffset: 600;
+    }
+    25% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write6 {
+    0%, 25% {
+        stroke-dashoffset: 600;
+    }
+    30% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write7 {
+    0%, 30% {
+        stroke-dashoffset: 600;
+    }
+    35% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write8 {
+    0%, 35% {
+        stroke-dashoffset: 600;
+    }
+    40% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write9 {
+    0%, 40% {
+        stroke-dashoffset: 600;
+    }
+    45% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write10 {
+    0%, 45% {
+        stroke-dashoffset: 900;
+    }
+    50% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write11 {
+    0%, 50% {
+        stroke-dashoffset: 600;
+    }
+    55% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write12 {
+    0%, 55% {
+        stroke-dashoffset: 600;
+    }
+    60% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write13 {
+    0%, 60% {
+        stroke-dashoffset: 600;
+    }
+    65% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write14 {
+    0%, 65% {
+        stroke-dashoffset: 600;
+    }
+    70% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write15 {
+    0%, 70% {
+        stroke-dashoffset: 700;
+    }
+    75% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write16 {
+    0%, 75% {
+        stroke-dashoffset: 600;
+    }
+    80% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write17 {
+    0%, 80% {
+        stroke-dashoffset: 600;
+    }
+    85% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write18 {
+    0%, 85% {
+        stroke-dashoffset: 700;
+    }
+    90% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write19 {
+    0%, 90% {
+        stroke-dashoffset: 600;
+    }
+    95% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write20 {
+    0%, 95% {
+        stroke-dashoffset: 600;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
 }

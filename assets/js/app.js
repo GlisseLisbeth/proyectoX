@@ -34,7 +34,7 @@ function displayBody(){
       logo.style.display = 'none';
       body.style.display = 'block';
     };
-  },50);
+  },57);
 }
 
 function color(){

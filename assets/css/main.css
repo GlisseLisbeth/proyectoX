@@ -327,3 +327,261 @@ div>h1{
   height: 500px;
   background-color: black;
 }
+
+
+/*style letter Desarrollo Sostenible*/
+path{
+  fill: none;
+  stroke: #2a3745;
+  stroke-width: 28;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.stroke-a {
+  stroke-dasharray: 600;
+  animation: write1 3s 1 ease-out;
+}
+.stroke-b {
+  stroke-dasharray: 1100;
+  animation: write2 3s 1 ease-out;
+}
+.stroke-c {
+  stroke-dasharray: 600;
+  animation: write3 3s 1 ease-out;
+}
+.stroke-d {
+  stroke-dasharray: 600;
+  animation: write4 3s 1 ease-out;
+}
+.stroke-e {
+  stroke-dasharray: 600;
+  animation: write5 3s 1 ease-out;
+}
+.stroke-f {
+  stroke-dasharray: 600;
+  animation: write6 3s 1 ease-out;
+}
+.stroke-g {
+  stroke-dasharray: 600;
+  animation: write7 3s 1 ease-out;
+}
+.stroke-h {
+  stroke-dasharray: 600;
+  animation: write8 3s 1 ease-out;
+}
+.stroke-i {
+  stroke-dasharray: 600;
+  animation: write9 3s 1 ease-out;
+}
+.stroke-j {
+  stroke-dasharray: 900;
+  animation: write10 3s 1 ease-out;
+}
+.stroke-k {
+  stroke-dasharray: 600;
+  animation: write11 3s 1 ease-out;
+}
+.stroke-l {
+  stroke-dasharray: 600;
+  animation: write12 3s 1 ease-out;
+}
+.stroke-m {
+  stroke-dasharray: 600;
+  animation: write13 3s 1 ease-out;
+}
+.stroke-n {
+  stroke-dasharray: 600;
+  animation: write14 3s 1 ease-out;
+}
+.stroke-o {
+  stroke-dasharray: 700;
+  animation: write15 3s 1 ease-out;
+}
+.stroke-p-1 {
+  stroke-dasharray: 600;
+  animation: write16 3s 1 ease-out;
+}
+.stroke-p-2 {
+  stroke-dasharray: 600;
+  animation: write17 3s 1 ease-out;
+}
+.stroke-q {
+  stroke-dasharray: 700;
+  animation: write18 3s 1 ease-out;
+}
+.stroke-r {
+  stroke-dasharray: 600;
+  animation: write19 3s 1 ease-out;
+}
+.stroke-s {
+  stroke-dasharray: 600;
+  animation: write20 3s 1 ease-out;
+}
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 600;
+    }
+    5% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write2 {
+    0%, 5% {
+        stroke-dashoffset: 1100;
+    }
+    10% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write3 {
+    0%, 10% {
+        stroke-dashoffset: 600;
+    }
+    15% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write4 {
+    0%, 15% {
+        stroke-dashoffset: 600;
+    }
+    20% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write5 {
+    0%, 20% {
+        stroke-dashoffset: 600;
+    }
+    25% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write6 {
+    0%, 25% {
+        stroke-dashoffset: 600;
+    }
+    30% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write7 {
+    0%, 30% {
+        stroke-dashoffset: 600;
+    }
+    35% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write8 {
+    0%, 35% {
+        stroke-dashoffset: 600;
+    }
+    40% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write9 {
+    0%, 40% {
+        stroke-dashoffset: 600;
+    }
+    45% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write10 {
+    0%, 45% {
+        stroke-dashoffset: 900;
+    }
+    50% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write11 {
+    0%, 50% {
+        stroke-dashoffset: 600;
+    }
+    55% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write12 {
+    0%, 55% {
+        stroke-dashoffset: 600;
+    }
+    60% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write13 {
+    0%, 60% {
+        stroke-dashoffset: 600;
+    }
+    65% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write14 {
+    0%, 65% {
+        stroke-dashoffset: 600;
+    }
+    70% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write15 {
+    0%, 70% {
+        stroke-dashoffset: 700;
+    }
+    75% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write16 {
+    0%, 75% {
+        stroke-dashoffset: 600;
+    }
+    80% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write17 {
+    0%, 80% {
+        stroke-dashoffset: 600;
+    }
+    85% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write18 {
+    0%, 85% {
+        stroke-dashoffset: 700;
+    }
+    90% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write19 {
+    0%, 90% {
+        stroke-dashoffset: 600;
+    }
+    95% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write20 {
+    0%, 95% {
+        stroke-dashoffset: 600;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

@@ -73,3 +73,21 @@ for (var i=0;i<mostrar.length;i++){
   }
 
 }
+// **********************************
+
+var img =document.getElementsByClassName('img');
+var showModal=function(e){
+      document.getElementById("muestra").src=this.firstElementChild.src ;
+      console.log(this.lastElementChild.cont );
+      // this.firstElementChild.setAttribute("src","assets/img/"+ "img-"+(i)+".jpg");
+      document.getElementById("body").classList.add('hidden');
+      document.getElementById("normal").style.display="block";
+      };
+  for(var i=0;i<img.length;i++){
+    img[i].addEventListener("click",showModal);
+    }
+  
+document.getElementById("cerrar").addEventListener("click",function (e){
+    document.getElementById("body").classList.remove('hidden');
+    document.getElementById("normal").style.display="none";
+}); 

@@ -194,7 +194,7 @@ body.menu-active nav#slide-menu ul {
 */
 
 div#content {
-  position: absolute;
+  position: absolute ;
   top: 0;
   right: 0;
   width: 100%;
@@ -272,7 +272,7 @@ text-align: center;
 
 /*typewriter effect*/
 
-.typewriter h1 {
+.typewriter  {
   overflow: hidden;
   /*justify-content: center;*/
   border-right: .15em solid black;
@@ -293,39 +293,82 @@ text-align: center;
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #9E4E65; }
+  50% { border-color: transparent; }
 }
 /********/
 .logo{
   display: inline-block;
   height: 70px;
   width: 70px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
 }
 div>h1{
   display: inline-block;
 }
 
-.cuerpo > p  {
+.uno >p{
+  color: #363A67;
+  text-align: justify;
+  margin: 50px;
+  font-size: 20pxs;
+}
+.dos{
+  background-color: black;
+}
+.dos >p{
+  color: #FED23C;x
+  text-align: justify;
+  margin: 50px;
+  font-size: 20px;
+}
+.tres >p{
+  color: #798340;
+  text-align: justify;
+  margin: 50px;
+  font-size: 20px;
+}
+.cuatro >p{
   color: #9E4E65;
   text-align: justify;
+  margin: 50px;
+  font-size: 20px;
 }
 .Mensaje{
   position: relative;
-  height: 200px;
+  height: 300px;
   width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 .frase{
   position: relative;
   height: 300px;
   width: 300px;
   display: inline-block;
+  opacity: 0.8;
+  z-index: 10;
 }
+.frase:hover{
+  transform: scale(1.5);
+  opacity: 1;
+  z-index: 20;
+  border: 1px solid black;
+}
+
 .negro{
-  height: 500px;
+  height: 560px;
   background-color: black;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+}
+footer{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  height: 50px
+  background: #373B47;
+  color: white;
 }
 
 

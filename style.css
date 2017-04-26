@@ -30,6 +30,7 @@
 }
 .icon-sunglasses:before {
   content: "\e901";
+  font-size: 80px;
 }
 .icon-sunglasses2:before {
   content: "\e902";
@@ -49,6 +50,7 @@
 }
 .icon-soccer-ball:before {
   content: "\e909";
+  font-size: 80px;
 }
 .icon-soccer-ball2:before {
   content: "\e90a";
